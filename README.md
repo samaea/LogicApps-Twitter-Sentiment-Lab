@@ -1,5 +1,5 @@
 # Twitter Sentiment Lab using Azure Serverless technologies and PowerBI
-****Introduction****
+## Introduction
 
 In this lab, we will explore how you can use Azure Serviceless technologies to pull together a solution relatively quickly. In this scenario, the solution will be a Social Dashboard. We will use Logic Apps to monitor for specific hashtags in Twitter, obtain the overall sentiment and perform key phrase extraction using Azure Cognitive Services, and then perform some transformations using Azure Functions. Finally, we will then insert the results into PowerBI to visualise the insights on a map.
 
@@ -10,7 +10,7 @@ In this lab, we will explore how you can use Azure Serviceless technologies to p
 2. A Twitter account.
 3. A PowerBI account.
 
-### Deploying the Logic App
+## Deploying the Logic App
   1. Navigate to the Azure Portal:- https://portal.azure.com
      
   1. Click on **+ Create a resource** in the top left handside of the screen.
@@ -29,7 +29,7 @@ In this lab, we will explore how you can use Azure Serviceless technologies to p
 
   1. Click on **Review + create** and then **Create**. Once deployment is complete, click on **Go to Resource**.
 
-## Creating your Logic App workflow.
+## Creating your Logic App workflow
   1. Click on **Blank Logic App +**
 
      >Now we are in the Logic Apps Designer, we can start to pull together our workflow. Let's go ahead and add a trigger for Twitter.
@@ -254,7 +254,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
      ![Logic Apps - Successful executions of the workflow](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/logic-apps-enable.png)
 
-  ### Creating a report in PowerBI to visual the data on a map.
+  ## Creating a report in PowerBI to visual the data on a map.
 
   1. **Open a new browser tab** and **navigate to** https://www.powerbi.com/groups/me/list.
   1. Click on **My workspace**.
