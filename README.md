@@ -213,7 +213,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
   1. Input the following values in their respective fields:
      * **Dataset name**: TwitterDashboard-**YOURALIAS**
-     * Values to input under **Vales from stream**
+     * Values to input under **Values from stream**
        Value | Type
        --------- | -----------
        `Twitter Text` | text
