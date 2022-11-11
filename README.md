@@ -169,13 +169,13 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
   1. Click on **Test/Run**. Under **Body** replace all the text with 
 
-     ``` json
+     ```
      "["new enhancements","RT","dotnet"]"
      ```
 
   1. Click **Run**. The Function should transform and output it to:-
 
-     ``` json
+     ```
      new enhancements, RT, dotnet
      ```
        ![Azure Portal - Azure Functions output](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/functions-output.png)
