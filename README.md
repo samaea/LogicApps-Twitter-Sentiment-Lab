@@ -254,7 +254,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
      ![Logic Apps - Successful executions of the workflow](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/logic-apps-enable.png)
 
-  ## Creating a report in PowerBI to visual the data on a map.
+  ## Creating a report in PowerBI to visual the data on a map
 
   1. **Open a new browser tab** and **navigate to** https://www.powerbi.com/groups/me/list.
   1. Click on **My workspace**.
