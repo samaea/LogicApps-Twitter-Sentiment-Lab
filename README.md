@@ -190,7 +190,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
   1. Select **HttpTrigger1**
   1. Select the field box next to **Request Body**. The Dynamic content popup should appear. Click on **Expression** and input the following:-
-     ```json
+     ```
      body('Key_Phrases_(V3.0)')['documents'][0]['keyPhrases']
      ```
      >NOTE: To understand the above expression, it is basically referencing the output of Key Phrases (V3.0). The value we are interested (the key phrases output) resides in this path. You can figure out the path yourself through the example earlier, which you can find here https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/cognitive-services-keyphrases-output.png
@@ -237,7 +237,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
   1. Select **Add new parameter** and **tick the checkbox** for all the fields we created (i.e Twitter Text, Sentiment, Key Phrases and Location). This provide additional fields to fill in.
      * **Twitter Text**: Select the field box and select **Tweet Text**
      * **Sentiment**: Select the field box, select **Expression** 
-       ```json
+       ```
        body('Sentiment_(V3.0)')['documents'][0]['sentiment']
        ```
      * **Key Phrases**: Select the field box, search for **Body** and select **Body** under HttpTrigger1 (i.e the output of our Azure Functions)
