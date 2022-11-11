@@ -276,6 +276,10 @@ TwitterDashboard-**ALIAS**), click on the **ellipsis (\*\*\*)** icon and then on
 
        ![PowerBI - Table Configuration](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/powerbi-table.png)
 
+
   ## Summary
+  
+  > **Warning**
+  > Do not forget to **disable** or **delete** the Logic App by the end of the lab to avoid unexpected Azure charges!
 
   Congratulations, you've now reached the end of the lab! In summary, you've built a Logic Apps that pulls messages from Twitter by searching for hastag #Azure. Afterwards, you performed sentiment analysis and key phrase extraction with the help of Azure Cognitive Services. You then used Azure Functions to transform the output of key phrase extraction to be more readable. Lastly, you past Azure Function's output along with the Twitter's and sentiment analysis output into a PowerBI dataset where then created a report to visualise the insights of the data. Hopefully this lab showed you the power of low code solutions to build a solution, which otherwise would have taken many days to achieve if you built this from the ground up using a pro-code approach.
