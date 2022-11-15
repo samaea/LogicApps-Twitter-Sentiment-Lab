@@ -225,7 +225,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
        ![PowerBI - Creating a streaming dataset](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/powerbi-create-streaming-dataset-2.png)
 
-  1. Now click on **Done**
+  1. Now click on **Create**
 
   1. With our streaming dataset now created, let's navigate back to the browser tab that has the Logic Apps Designer opened.
   1. Click on **+ New step**
