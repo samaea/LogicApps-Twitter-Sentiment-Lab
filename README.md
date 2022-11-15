@@ -118,7 +118,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
   > NOTE:- The below is just informational, avoid running the workflow at this stage as we want to pipe as much information from Twitter to PowerBI in the short amount of time we will be running it.
 
-  If we ran our workflow, we would realise the Keyphrases Connector will output something similar to the below. Notice how under documents it has returned a JSON array called keyPhrases with the value **"["new enhancements","RT","dotnet"]"**:-
+  If we ran our workflow, we would realise the Keyphrases Connector will output something similar to the below. Notice how under documents it has returned a JSON array called keyPhrases with the value **["new enhancements","RT","dotnet"]**:-
 
   ![Logic Apps - Selecting Keyphrases parameters from documents id and text](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/cognitive-services-keyphrases-output.png)
 
@@ -170,7 +170,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
   1. Click on **Test/Run**. Under **Body** replace all the text with 
 
      ```
-     "["new enhancements","RT","dotnet"]"
+     ["new enhancements","RT","dotnet"]
      ```
 
   1. Click **Run**. The Function should transform and output it to:-
