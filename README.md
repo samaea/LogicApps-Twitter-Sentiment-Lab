@@ -256,7 +256,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
   ## Creating a report in PowerBI to visual the data on a map
 
-  1. **Open a new browser tab** and **navigate to** https://www.powerbi.com/groups/me/list.
+  1. **Navigate to** https://www.powerbi.com/groups/me/list.
   1. Click on **My workspace**.
   1. Locate the PowerBI dataset you created in earlier steps (
 TwitterDashboard-**ALIAS**), click on the **ellipsis (\*\*\*)** icon and then on **Create Report**
