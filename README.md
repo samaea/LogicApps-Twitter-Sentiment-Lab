@@ -51,7 +51,8 @@ In this lab, we will explore how you can use Azure Serviceless technologies to p
      > 15 seconds can be quite excessive, but the goal here is to gain as much data from Twitter in a short time. Therefore, it is advised you disable the Logic Apps or set a much higher interval to avoid unexpected Azure charges.
 
   1. On the top left hand side, click on **Save** to save the changes you've made so far.  
-      > **Notice** 
+
+      > **Note** 
       > You may lose all the changes made in the workflow if the browser's window times out or you navigate elsewhere. Thus, it's important to frequently save your changes as you work through the workflow.
 
   1. When you save the workflow, it also activates the trigger. Given it's very early to be gathering data at this stage, we will temporarily disable the Logic App. **Open a new browser tab** and **navigate to** https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows. Select the Logic App you just deployed (i.e TwitterDashboard-**ALIAS**). Click on **Disable** in the top center of the screen.
@@ -275,7 +276,7 @@ TwitterDashboard-**ALIAS**), click on the **ellipsis (\*\*\*)** icon and then on
 
      ![PowerBI - Map Configuration](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/powerbi-map.png)
 
-  > **Notice**
+  > **Note**
   > If at this stage, you cannot see any bubbles on the map (as per the above screenshot), the report may be stale. Please try clicking the Refresh ↻ icon. If that fails, it may be your Logic Apps hasn't collected sufficient information. For that scenario, you can try manually running the trigger in your Logic App or change the #Azure hashtag keyword to something else like #Microsoft. After new data comes in, you will need to refresh the report again.
 
   1. Expand **Colors** and for **negative**, select the colour red, **neutral** yellow and **positive** green.
