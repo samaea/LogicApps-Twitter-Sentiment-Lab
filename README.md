@@ -262,7 +262,7 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 TwitterDashboard-**ALIAS**), click on the **ellipsis (\*\*\*)** icon and then on **Create Report**
      ![PowerBI- Create Report from dataset](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/powerbi-myworkspace.png)
   1. In the report, select the **Map icon**. Feel free to expand the size of the map.
-     ![PowerBI - Map Icon](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/powerbi-map-icon.png)
+       ![PowerBI - Map Icon](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/powerbi-map-icon.png)
   1. On the top right hand side, **expand out** the RealTimeData table.
   1. **Drag and drop** the **Location** field over to **Location** under the parameters of the map.
   1. **Drag and drop** the **Sentiment** field over to **Bubble size**.
