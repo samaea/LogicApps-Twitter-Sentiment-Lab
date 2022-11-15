@@ -276,8 +276,8 @@ TwitterDashboard-**ALIAS**), click on the **ellipsis (\*\*\*)** icon and then on
 
      ![PowerBI - Map Configuration](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/powerbi-map.png)
 
-  > **Note**
-  > If at this stage, you cannot see any bubbles on the map (as per the above screenshot), the report may be stale. Please try clicking the Refresh ↻ icon. If that fails, it may be your Logic Apps hasn't collected enough information. For that scenario, you can try manually running the trigger in your Logic App or change the #Azure hashtag keyword to something else like #Microsoft. After new data comes in, you will need to refresh the report again.
+     > **Note**
+     > If at this stage, you cannot see any bubbles on the map (as per the above screenshot), the report may be stale. Please try clicking the Refresh ↻ icon. If that fails, it may be your Logic Apps hasn't collected enough information. For that scenario, you can try manually running the trigger in your Logic App or change the #Azure hashtag keyword to something else like #Microsoft. After new data comes in, you will need to refresh the report again.
 
   1. Expand **Colors** and for **negative**, select the colour red, **neutral** yellow and **positive** green.
 
