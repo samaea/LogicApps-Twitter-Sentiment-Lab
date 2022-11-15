@@ -46,9 +46,9 @@ In this lab, we will explore how you can use Azure Serviceless technologies to p
   1. Now we can define what keywords we want to search for in Twitter followed by the frequency. 
      * **Search text**: #Azure
      * **How often do you want to check for items**: 15 seconds.
-
-     > **Warning**
-     > 15 seconds can be quite excessive, but the goal here is to gain as much data from Twitter in a short time. Therefore, it is advised you disable the Logic Apps or set a much higher interval to avoid unexpected Azure charges.
+     
+   > **Warning**
+   > 15 seconds can be quite excessive, but the goal here is to gain as much data from Twitter in a short time. Therefore, it is advised you disable the Logic Apps or set a much higher interval to avoid unexpected Azure charges.
 
   1. On the top left hand side, click on **Save** to save the changes you've made so far.  
 
