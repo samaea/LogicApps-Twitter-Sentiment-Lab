@@ -1,7 +1,7 @@
 # Twitter Sentiment Lab using Azure Serverless technologies and PowerBI
 ## Introduction
 
-In this lab, we will explore how you can use Azure Serviceless technologies to pull together a solution relatively quickly. In this scenario, the solution will be a Social Dashboard. We will use Logic Apps to monitor for specific hashtags in Twitter, obtain the overall sentiment and perform key phrase extraction using Azure Cognitive Services, and then perform some transformations using Azure Functions. Finally, we will then insert the results into PowerBI to visualise the insights on a map.
+In this lab, we will explore how you can use Azure Serverless technologies to pull together a solution relatively quickly. In this scenario, the solution will be a Social Dashboard. We will use Logic Apps to monitor for specific hashtags in Twitter, obtain the overall sentiment and perform key phrase extraction using Azure Cognitive Services, and then perform some transformations using Azure Functions. Finally, we will then insert the results into PowerBI to visualise the insights on a map.
 
 **Duration**:- 45 minutes.
 
