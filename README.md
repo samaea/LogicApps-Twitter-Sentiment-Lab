@@ -210,11 +210,13 @@ In this stage, we will add Cognitive Services as part of our Logic Apps workflow
 
   >Now it's time to send the data into PowerBI to visual the sentiment of our tweets. Before we can do this, we will need to create a PowerBI dataset.
  
-  1. In a new browser tab, navigate to https://www.powerbi.com/groups/me/create.
-  1. Click on **Create** located on the top left corner.
-  1. Select **Streaming dataset** and then **API**
-
+  1. In a new browser tab, navigate to [https://www.powerbi.com/groups/me/create](PowerBI).
+  1. Click on **My workplace** located on the bottom left corner.
+  1. Select **+ New**.
+  1. Select **Streaming dataset**.
+  
      ![PowerBI - Creating a streaming dataset](https://raw.githubusercontent.com/samaea/LogicApps-Twitter-Sentiment-Lab/main/images/powerbi-create-streaming-dataset.png)
+  1. Select **API** and then **Next**.
 
   1. Input the following values in their respective fields:
      * **Dataset name**: TwitterDashboard-**YOURALIAS**
